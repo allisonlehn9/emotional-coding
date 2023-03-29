@@ -57,7 +57,7 @@
   height: max-content;
   gap: 5vh;
   width: 500px;
-  opacity: 80%;
+  opacity: 70%;
   border: 3px solid black;
   margin: 100px;
   display: flex;
@@ -65,6 +65,12 @@
   padding: 5vh;
   justify-content: space-between;
   font-size: 20px;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.2s;
+}
+
+.project:hover {
+  opacity: 100%;
 }
 
 .project--title {
@@ -76,15 +82,74 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+  align-items: center;
 }
 
-.project--readmore, .project--seeproject {
+.project--readmore, .project--seeproject, .homelink {
   font-size: 40px;
   font-family: Inconsolata-Bold;
   text-decoration: none;
   color: black;
+  width: fit-content;
+  transition: 0.5s;
 }
 
+.project--readmore:hover, .project--seeproject:hover, .homelink:hover {
+  background-color: rgba(106, 48, 165, .5);
+  size: min-content;
+}
+
+.homelink {
+  text-align: center;
+}
+
+.footnote {
+  color: rgba(106, 48, 165, 0.8);
+  position: relative;
+  display:inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.footnote .footnote--text {
+  visibility: hidden;
+  background-color: white;
+  opacity: 0;
+  color: black;
+  text-align: left;
+  height: max-content;
+  width: 30vw;
+  min-width: fit-content;
+  padding: 10px 10px;
+  border-radius: 3px;
+  border: 3px solid rgba(106, 48, 165, 1);
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  left:105%;
+  z-index: 1;
+  transition: opacity 0.5s;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.footnote:hover .footnote--text {
+  visibility: visible;
+  opacity: 1;
+}
+
+.intro {
+  font-size: 20px;
+  margin: 2em;
+}
+
+.link {
+  color:black;
+  text-decoration: underline rgba(106, 48, 165, .8);
+}
+
+.link:hover {
+  background-color: rgba(106, 48, 165, .5);
+  text-decoration: none;
+}
 /* .App {
   text-align: center;
 } */
