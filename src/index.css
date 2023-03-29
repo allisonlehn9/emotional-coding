@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Inconsolata-Regular";
+  src: local("Inconsolata-Regular"),
+    url("./fonts/static/Inconsolata/Inconsolata-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inconsolata-Bold";
+  src: local("Inconsolata-Bold"),
+    url("./fonts/static/Inconsolata/Inconsolata-Bold.ttf") format("truetype");
+}
+
+
+body {
+  font-family: "Inconsolata-Regular";
+  font-size: 1.5vw;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
