@@ -307,7 +307,7 @@ export default function Colombia() {
                 </div>
             </div>
             <div className="project--links">
-                <a className="project--seeproject" href="https://allisonlehn.maps.arcgis.com/apps/instant/media/index.html?appid=6df1792f3e5e4762ba2a2e8302d42d52">see project</a>
+                <a className="project--seeproject" href="https://allisonlehn.maps.arcgis.com/apps/instant/media/index.html?appid=6df1792f3e5e4762ba2a2e8302d42d52" target="_blank" rel="noopener noreferrer">see project</a>
                 <a className="homelink" href="/">return home</a>
             </div>
             

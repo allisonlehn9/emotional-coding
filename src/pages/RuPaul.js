@@ -83,7 +83,7 @@ export default function RuPaul() {
                 it. I promise that it’s worth it.
             </p>
             <div className="project--links">
-                <a className="project--seeproject" href="/">see project</a>
+                <a className="project--seeproject" href="/" target="_blank" rel="noopener noreferrer">see project</a>
                 <a className="homelink" href="/">return home</a>
             </div>
         </div>

@@ -13,7 +13,7 @@ export default function Footnote(footnote) {
     const onMouseMove = (e) => {
         const { x, y } = e.nativeEvent;
         const { left, top } = footnoteRef.current?.getBoundingClientRect();
-        setMouseOffset({ x: (x - left) / 4, y: (y - top) / 4 });
+        setMouseOffset({ x: (x - left) / 10, y: (y - top) / 10 });
     }
 
     const {styles, attributes} = usePopper(footnoteRef?.current, popperRef?.current, {
@@ -23,7 +23,7 @@ export default function Footnote(footnote) {
             {
                 name: 'offset',
                 options: {
-                    offset: [10 + mouseOffset.y, mouseOffset.x + 10],
+                    offset: [mouseOffset.x, mouseOffset.y],
                 },
             },
         ],
@@ -50,6 +50,8 @@ export default function Footnote(footnote) {
             {isHovered && (
                 <div 
                     ref={popperRef}
+                    onMouseEnter={() => setHovered(true)}
+                    onMouseLeave = {() => setHovered(false)}
                     className = {"footnote--text"}
                     style={{ width: Math.max(386, remainingX),
                              opacity: isHovered ? 1 : 0,

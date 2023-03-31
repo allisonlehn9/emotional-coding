@@ -80,6 +80,7 @@
   transition: 0.5s;
 }
 
+
 .project--readmore:hover, .project--seeproject:hover, .homelink:hover {
   background-color: rgba(106, 48, 165, .5);
   size: min-content;
@@ -92,6 +93,7 @@
 .footnote {
   color: rgba(106, 48, 165, 0.8);
   display:inline;
+  border-bottom: 1px dotted black;
 }
 
 /* Tooltip text */
@@ -108,7 +110,8 @@
   border: 3px solid rgba(106, 48, 165, 1);
   /* Position the tooltip text - see examples below! */
   z-index: 1;
-  transition: opacity 0.5s;
+  transition: opacity 1s;
+  max-width: max-content;
 }
 
 
