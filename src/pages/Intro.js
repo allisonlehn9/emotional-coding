@@ -177,31 +177,40 @@ export default function Intro() {
                 process. My frustrations, anxieties, and moments of joy are all inextricably tied to the products I’ve created, which makes them even more valuable. 
             </p>
             <p>
-                The first main project is the <b>Colombia Periodical Licenses Map</b>. Working with Professor Robert Karl as part of the Colombia Digital History Lab, I’ve worked to 
+                The first main project is the <a className="pagelink" href="/Colombia-Periodical-Licenses-Map">Colombia Periodical Licenses Map</a>. Working with Professor Robert Karl as part of the Colombia Digital History Lab, I’ve worked to 
                 translate images of archival periodical licenses to a digital dataset. I then was able to geocode the locations so the licenses can be viewed on a map, making them 
                 more explorable for Latin American scholars. Throughout the process of creating the project, I reflected on the technological and ethical considerations necessary 
                 when translating a primary source, as well as what it means to create a meaningful digital resource.
             </p>
             <p>
-                The second project is titled <b>RuPaul’s Machine Learning Race</b>, and you’ll never guess what show I was watching when I came up with the idea for it. After going 
+                The second project is titled <a className="pagelink" href="RuPauls-Machine-Learning-Race">RuPaul’s Machine Learning Race</a>, and you’ll never guess what show I was watching when I came up with the idea for it. After going 
                 through multiple breakdowns while taking a machine learning class, I made it my goal to try to explain the concepts in a beginner-friendly, engaging way, and found 
                 the fantastical case study of ranking the runway outfits on <i>RuPaul’s Drag Race</i> a perfect way to imperfectly teach the fundamentals of web scraping, image 
                 processing, classification/regression, and unsupervised learning.
             </p>
             <p>
-                Through the process of creating these two main projects, I experimented with many different ideas and techniques—to varying degrees of success. With some projects, 
+                The third project is this very <a className="pagelink" href="Portfolio-Website">Portfolio Website</a>. Not unlike my experience with machine learning, the software 
+                engineering class I took completely killed any dreams I had about pursuing the field further, so completing this website on my own was a major milestone in my 
+                technical—and emotional—skill development. This site symbolizes my entire emotional coding experience, from prioritizing emotionally supportive relationships to 
+                embedding my whole self in my work.
+            </p>
+            <p>
+                Through the process of creating these three main projects, I experimented with many different ideas and techniques—to varying degrees of success. With some projects, 
                 I ran into unexpected technical or practical <i>frustrations</i>, forcing me to abandon them. Other projects were just low-pressure <i>explorations</i> of new 
                 technologies, which I never intended to turn into main projects. Lastly, I realized that some of these ideas were more <i>aspirations</i> than feasible projects 
-                that could be done in the time I had available. Reclaiming these projects as not failures, but <b>Frustrations, Explorations, and Aspirations</b>, has helped me 
-                come to terms with my own perfectionism and the self-hatred that emerges from "quitting." I reflected on each of these types of projects, considering how the work 
-                that doesn’t end up on the final page is still valuable in its own right.
+                that could be done in the time I had available. Reclaiming these projects as not failures, but <a className="pagelink" href="Frustrations-Aspirations-Explorations">Frustrations, Explorations, 
+                and Aspirations</a>, has helped me come to terms with my own perfectionism and the self-hatred that emerges from "quitting." I reflected on each of these types of projects, considering 
+                how the work that doesn’t end up on the final page is still valuable in its own right.
             </p>
             <p>
                 Throughout all of these, I want to highlight my emotional, relationship-centered approach to creating ethical computer science projects as an asset, not something to
                 be fixed. More importantly, I want to show that this mindset should be intrinsic to all coding-related work—not just projects within the digital humanities field. In 
                 an ideal world, <b>I really shouldn’t be the most emotional coder that you know.</b>
             </p>
-            <a className="homelink" href="/">return home</a>
+            <div className="project--links">
+                <a className="homelink" href="/">return home</a>
+            </div>
+            
         </div>
     )
 }

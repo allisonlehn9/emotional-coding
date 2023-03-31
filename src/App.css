@@ -14,19 +14,6 @@
   width: fit-content;
 }
 
-/* .home::-webkit-scrollbar {
-  height: 8px;
-}
-
-.home::-webkit-scrollbar-thumb {
-  background-color: gray;
-  border-radius: 10px;
-}
-
-.home::-webkit-scrollbar-track {
-  background-color: white;
-  border-radius: 10px;
-} */
 
 .title {
   background-color: white;
@@ -81,7 +68,7 @@
 .project--links {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 1em;
   align-items: center;
 }
 
@@ -106,7 +93,7 @@
 .footnote {
   color: rgba(106, 48, 165, 0.8);
   position: relative;
-  display:inline-block;
+  display: inline-block;
   border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
 }
 
@@ -136,27 +123,79 @@
   opacity: 1;
 }
 
-.intro {
+.intro, .rupaul, .portfolio {
   font-size: 20px;
   margin: 2em;
 }
 
-.link {
+.link, .pagelink {
   color:black;
   text-decoration: underline rgba(106, 48, 165, .8);
 }
 
-.link:hover {
+.link:hover, .pagelink:hover {
   background-color: rgba(106, 48, 165, .5);
   text-decoration: none;
 }
-/* .App {
+
+.colombia {
+  margin: 2em;
+}
+
+
+.colombia--body {
+  display: flex;
+  flex-direction: column;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+}
+
+.column--img {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  justify-content: space-between;
+  padding: 5% 0 10% 0;
+  background-color: white;
+  
+  
+}
+
+img {
+  max-width: 20vw;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  gap:10px;
+  justify-content: center;
   text-align: center;
-} */
+  vertical-align: middle;
+  position: relative;
+  transition: transform .2s;
+  border: 3px solid rgba(106, 48, 165, 1);
+  padding: 10px;
+  position: sticky;
+  position: -webkit-sticky; /* Safari */
+  top: 0;
+  background-color: white;
+  
+}
 
+.figure--group{
+  background-color: white;
+}
 
-
-
+figure:hover {
+  transform:scale(2.5) translate(-10vw);
+  z-index: 1;
+}
 
 /* 
 
