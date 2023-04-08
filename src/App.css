@@ -115,7 +115,7 @@
 }
 
 
-.intro, .rupaul, .portfolio {
+.intro, .rupaul, .portfolio, .colombia, .ations, .conclusion {
   font-size: 20px;
   margin: 2em;
 }
@@ -130,9 +130,7 @@
   text-decoration: none;
 }
 
-.colombia {
-  margin: 2em;
-}
+
 
 
 .colombia--body {
@@ -177,7 +175,7 @@ figure {
   position: -webkit-sticky; /* Safari */
   top: 0;
   background-color: white;
-  
+  min-width: 22vw;
 }
 
 .figure--group{
@@ -188,6 +186,7 @@ figure:hover {
   transform:scale(2.5) translate(-10vw);
   z-index: 1;
 }
+
 
 /* 
 

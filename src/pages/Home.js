@@ -17,7 +17,7 @@ export default function Home() {
             periodical licenses from the early- to mid-20th century. I then created an interactive digital map to make this data explorable for scholars 
             of Latin America. Throughout the process, I truly realized the immense and underappreciated effort behind archival digitization, as well as 
             the responsibilities involved with creating a project for and with the public."/>
-        <Project title="RuPaul's Machine Learning Race" readmore="RuPauls-Machine-Learning-Race" seeproject="https://www.w3schools.com/css/css_form.asp" 
+        <Project title="RuPaul’s Machine Learning Race" readmore="RuPauls-Machine-Learning-Race" seeproject="https://medium.com/@allison_98737/list/rupauls-machine-learning-race-c79a58348ad2" 
             content="In response to a frustratingly difficult machine learning class, I decided to create a completely beginner-friendly and imperfect 
             introduction to several machine learning techniques, including classification, regression, and dimension reduction, through the entertaining 
             example of rating the runway outfits on RuPaul’s Drag Race. In the process of gathering the data for this analysis, I also created a tutorial 
@@ -32,7 +32,9 @@ export default function Home() {
             As part of overcoming my internalized hatred for “quitting” and “failure,” I’ve reframed how I think about these 
             projects by classifying them into one of the three <i>-ations</i>: frustrations, explorations, and aspirations. Despite not 
             making the cut as finalized projects, these all were still worth discussing and appreciating in their own right.</div>}/>
-        <Project title="Conclusion" content="blah" readmore="Conclusion"/>
+        <Project title="Conclusion" content="Taking all of these works into consideration, I reflect on what I’ve learned from the process and how my emotions 
+            have evolved as a result. I think about what emotional coding means for the world and how this work helps contribute to that vision." 
+            readmore="Conclusion"/>
       </div>
       
     );

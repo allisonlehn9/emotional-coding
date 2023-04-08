@@ -195,7 +195,9 @@ export default function Colombia() {
                             over the past century, and the dataset of Colombian places is up to date with the names from the 1990s onward. Certain departments, like Quindio and Risaralda, didn’t exist in 1915, so a lot 
                             of the cities in those departments are labeled under other ones, like Caldas. At the end of the day, I had to make some guesses about which “Santa Rosa” the data could have been specifying, 
                             and I might have been wrong. This presents a huge dilemma, because we tend to take maps like this at face value. The only solution I have for circumventing this situation is simply full transparency
-                            <Footnote num="8" text="Something about data feminism"/>
+                            <Footnote num="8" text={<div>This is iterating another point made in Chapter 3 of <i>Data Feminism,</i> regarding positionality and embodied subjectivity. For more, see Catherine D’Ignazio and Lauren 
+                                Klein, “3. On Rational, Scientific, Objective Viewpoints from Mythical, Imaginary, Impossible Standpoints,” <i>Data Feminism,</i> March 16, 2020, <Link text="https://data-feminism.mitpress.mit.edu/pub/5evfe9yd/release/5." 
+                                href="https://data-feminism.mitpress.mit.edu/pub/5evfe9yd/release/5" /></div>} />
                             . As part of the final map product, I knew that I would need to present an introduction highlighting any potentially misleading information <i>before</i> the user even gets to look at the map. The pursuit 
                             of perfection and objectivity is a fruitless endeavor, and I would rather own up to the ways in which my project could be flawed than lie and claim dangerously false perfection.
                         </p>

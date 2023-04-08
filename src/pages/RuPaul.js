@@ -83,7 +83,7 @@ export default function RuPaul() {
                 it. I promise that it’s worth it.
             </p>
             <div className="project--links">
-                <a className="project--seeproject" href="/" target="_blank" rel="noopener noreferrer">see project</a>
+                <a className="project--seeproject" href="https://medium.com/@allison_98737/list/rupauls-machine-learning-race-c79a58348ad2" target="_blank" rel="noopener noreferrer">see project</a>
                 <a className="homelink" href="/">return home</a>
             </div>
         </div>

@@ -140,8 +140,8 @@ export default function Portfolio() {
             <p>
                 So, when I had to deal with this Git anxiety, I knew that I could turn to Ingrid, my token Git expert friend, and—this is equally important—she knows 
                 that she can turn to me for help with things that I’m more confident in
-                <Footnote num="6" text="In this particular skill exchange instance, she guided me through what turned out to be a very simple merging scenario, and I 
-                    knew exactly where her professional email needed commas." />
+                <Footnote num="6" text="In this particular skill exchange instance, she guided me through what turned out to be a very simple merging scenario (that I still
+                    managed to mess up) and I knew exactly where her professional email needed commas." />
                 . Without me even realizing it, my skills in <i>asking for help</i> have improved alongside the technical ones. By learning how to refocus my emotional a
                 ttention only on the people that I can trust to support me, I’ve relieved myself of the guilt and shame of being imperfect in public.
             </p>
